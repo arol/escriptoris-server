@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Web::Application.config.secret_token = 'a3e3b437f5baa09497bbe6c51f26cedb153e8e27f0124d2e17f8b15f771a6f19a7bef83d05535fb22a004340cf8c44fa1a8698f36c9aaa0c53e5d35ab5b9c8b4'
+EscriptorisServer::Application.config.secret_token = 'ada57968d99d140f052125d5a2418015c15c045ea656a6845bad454881ce37001a270084ba6bce1a053cdec8d3bffebd9db111d41ad1f26a2485967d20b93d12'

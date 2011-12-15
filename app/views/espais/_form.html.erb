@@ -1,0 +1,49 @@
+<%= form_for(@espai) do |f| %>
+  <% if @espai.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@espai.errors.count, "error") %> prohibited this espai from being saved:</h2>
+
+      <ul>
+      <% @espai.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nom %><br />
+    <%= f.text_field :nom %>
+  </div>
+  <div class="field">
+    <%= f.label :descripcio %><br />
+    <%= f.text_area :descripcio %>
+  </div>
+  <div class="field">
+    <%= f.label :direccio %><br />
+    <%= f.text_field :direccio %>
+  </div>
+  <div class="field">
+    <%= f.label :codipostal %><br />
+    <%= f.text_field :codipostal %>
+  </div>
+  <div class="field">
+    <%= f.label :lat %><br />
+    <%= f.text_field :lat %>
+  </div>
+  <div class="field">
+    <%= f.label :lang %><br />
+    <%= f.text_field :lang %>
+  </div>
+  <div class="field">
+    <%= f.label :tags %><br />
+    <%= f.text_field :tags %>
+  </div>
+  <div class="field">
+    <%= f.label :imatge %><br />
+    <%= f.text_field :imatge %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

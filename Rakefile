@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Web::Application.load_tasks
+EscriptorisServer::Application.load_tasks

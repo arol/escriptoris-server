@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nom: MyString
+  descripcio: MyText
+  direccio: MyString
+  codipostal: MyString
+  lat: 1.5
+  lang: 1.5
+  tags: MyString
+  imatge: MyString
+
+two:
+  nom: MyString
+  descripcio: MyText
+  direccio: MyString
+  codipostal: MyString
+  lat: 1.5
+  lang: 1.5
+  tags: MyString
+  imatge: MyString

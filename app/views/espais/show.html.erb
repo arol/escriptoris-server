@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nom:</b>
+  <%= @espai.nom %>
+</p>
+
+<p>
+  <b>Descripcio:</b>
+  <%= @espai.descripcio %>
+</p>
+
+<p>
+  <b>Direccio:</b>
+  <%= @espai.direccio %>
+</p>
+
+<p>
+  <b>Codipostal:</b>
+  <%= @espai.codipostal %>
+</p>
+
+<p>
+  <b>Lat:</b>
+  <%= @espai.lat %>
+</p>
+
+<p>
+  <b>Lang:</b>
+  <%= @espai.lang %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%= @espai.tags %>
+</p>
+
+<p>
+  <b>Imatge:</b>
+  <%= @espai.imatge %>
+</p>
+
+
+<%= link_to 'Edit', edit_espai_path(@espai) %> |
+<%= link_to 'Back', espais_path %>
