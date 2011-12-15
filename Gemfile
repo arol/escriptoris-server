@@ -37,3 +37,9 @@ end
 
 
 gem "seed_dump", "~> 0.3.4"
+
+# Heroku!
+group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3' 
+  gem 'pg'
+end
